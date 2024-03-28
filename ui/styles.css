@@ -13,6 +13,10 @@
   src: url(fonts/Jost_light.ttf);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Great+Vibes&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body {
   margin: 0;
   padding: 0;
@@ -111,7 +115,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 125vh;
+  height:100vh;
   overflow: hidden;
 }
 
@@ -124,21 +128,26 @@ section {
 
 .videobg h2 {
   position: absolute;
-  top: 81.2%;
+  top: 61.2%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
   color: white;
-  font-size: 30px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
+  font-size: 60px;
+  /* font-family: "Poppins", sans-serif;
+  font-weight: 600; */
+
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .videobg button {
   position: absolute;
-  top: 91%;
+  top: 75%;
   left: 50%;
-
+  
   transform: translate(-50%, -50%);
   z-index: 1;
   color: white;
